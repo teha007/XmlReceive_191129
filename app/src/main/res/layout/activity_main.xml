@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="clickBtn"
+        android:text="데이터 가져오기" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+
+<!--
+    <?xml version="1.0" encoding="UTF-8"?><response><header>
+
+    <resultCode>00</resultCode>
+
+    <resultMsg>NORMAL SERVICE.</resultMsg>
+</header>
+
+<body>
+
+    <items>
+
+        <item>
+
+            <lctreNm>미술심리상담</lctreNm>
+
+            <instrctrNm>이재란</instrctrNm>
+
+            <edcStartDay>2017-09-04</edcStartDay>
+
+            <edcEndDay>2017-12-04</edcEndDay>
+
+            <edcStartTime>10:00</edcStartTime>
+
+            <edcColseTime>12:00</edcColseTime>
+
+            <lctreCo>미술로 알아보는 마음상태</lctreCo>
+
+            <edcTrgetType>지역주민</edcTrgetType>
+
+            <edcMthType>오프라인</edcMthType>
+
+            <operDay>월요일</operDay>
+
+            <edcPlace>레인보우영동도서관</edcPlace>
+
+            <psncpa>20</psncpa>
+
+            <lctreCost>0</lctreCost>
+
+            <edcRdnmadr>충청북도 영동군 영동읍 계산로 2길 25</edcRdnmadr>
+
+            <operInstitutionNm>영동군청 생활지원과</operInstitutionNm>
+
+            <operPhoneNumber>043-740-3772</operPhoneNumber>
+
+            <rceptStartDate>2017-08-07</rceptStartDate>
+
+            <rceptEndDate>2017-08-11</rceptEndDate>
+
+            <rceptMthType>인터넷·방문접수</rceptMthType>
+
+            <slctnMthType>선착순</slctnMthType>
+
+            <homepageUrl>https://www.rainbowlib.go.kr/</homepageUrl>
+
+            <oadtCtLctreYn>N</oadtCtLctreYn>
+
+            <pntBankAckestYn>N</pntBankAckestYn>
+
+            <lrnAcnutAckestYn>N</lrnAcnutAckestYn>
+
+            <referenceDate>2018-02-23</referenceDate>
+
+            <insttCode>4440000</insttCode>
+
+            <insttNm>충청북도 영동군</insttNm>
+        </item>
+    </items>
+
+    <numOfRows>10</numOfRows>
+
+    <pageNo>1</pageNo>
+
+    <totalCount>1</totalCount>
+</body>
+</response>
+-->
